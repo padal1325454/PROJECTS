@@ -1,0 +1,57 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 3em;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 5px 10px;
+  width: 300px;
+  background-color: #f1f1f1;
+}
+
+.tab-container {
+  display: flex;
+  flex-direction: row;
+  gap: none;
+  list-style-type: none;
+}
+
+.search-image {
+  height: 1em;
+  width: 1em;
+}
+
+.search-button {
+  border: none;
+  background: none;
+  margin-left: 9em;
+}
+input {
+  border: none;
+  outline: none;
+  width: 10em;
+  background-color: transparent;
+}
+
+.container-apps {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 12px;
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 992px) {
+  .container-apps {
+    margin-bottom: 150px;
+  }
+}
